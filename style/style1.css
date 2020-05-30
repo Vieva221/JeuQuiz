@@ -1,86 +1,92 @@
+
 body{
-     background-color:white;
+    background-color:white;
 }
 .container{
-    height: 900px;
-    width: 100%;
-    background-color: #C4C4C4;
-    border-radius: 5px;
+   height: 900px;
+   width: 100%;
+   background-color: #C4C4C4;
+   border-radius: 5px;
 }
 .header{
-    height: 200px;
-    width: 100%;
-    background-image: url('../images/bg.jpg');
-    background-size: cover;
-    border-radius: 5px;
-    
+   height: 200px;
+   width: 100%;
+   background-image: url('../images/bg.jpg');
+   background-size: cover;
+   border-radius: 5px;
+   
 }
 .logo{
-    background-image: url('../images/logo.png');
-    width: 100px;
-    height: 110px;
-    background-size: 80px 110px;
-    background-repeat: no-repeat;
+   background-image: url('../images/logo.png');
+   width: 100px;
+   height: 110px;
+   background-size: 80px 110px;
+   background-repeat: no-repeat;
 }
 .bienvenue{
-    margin-top: -5%;
+   margin-top: -5%;
 }
 #welcom{
-    color: white;
-    text-align: center;
-    font-weight: bold;
+   color: white;
+   text-align: center;
+   font-weight: bold;
 }
 #titre{
-    color: #45AAF2;
-    text-align: center;
+   color: #45AAF2;
+   text-align: center;
 }
 .contlogin{
-    background-color: #F2FAF9;
-    height: 600px;
-    margin-top: 20px;
-    margin-left:8%;
-    margin-right: 8%;
-    border-radius: 5px;
-    text-align: center;
+   background-color: #F2FAF9;
+   height: 600px;
+   margin-top: 20px;
+   margin-left:8%;
+   margin-right: 8%;
+   border-radius: 5px;
+   text-align: center;
+   opacity: 70%;
 }
 #login{
-    color: #45AAF2;
-    font-weight: bold;
-    text-align: center;
-    margin-top:5%;
+   color: #45AAF2;
+   font-weight: bold;
+   text-align: center;
+   margin-top:5%;
 }
 .textbox{
-    width: 60%;
-    overflow: hidden;
-    font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 2px solid black;
+   width: 50%;
+   overflow: hidden;
+   font-size: 20px;
+   padding: 10px 0;
+   margin: 8px 0;
+   border-bottom: 2px solid black;
+   margin-left:25% ;
 
 }
 .textbox input{
-    border: none;
-    outline: none;
-    background: none;
-    text-align: center;
-    color:#636E72;
+   border: none;
+   outline: none;
+   background: none;
+   text-align: center;
+   color:#636E72;
 }
 .champs{
-    margin-left: 32%;
-    margin-top: 12%;
+   margin-left: 32%;
+   margin-top: 12%;
 }
 #submit{
-    background-color: #45AAF2;;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
+   background-color: #45AAF2;;
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 15px 20px;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
 }
 #signin{
-    color: #636E72;
-    font-weight: bold;
+   color: #636E72;
+   font-weight: bold;
 
+}
+.error-form{
+   color: red;
 }
