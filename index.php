@@ -10,7 +10,7 @@
     <title>Page Index</title>
   </head>
   <body>
-  <div class="container"> 
+  <div class="container-fluid"> 
       <div class="row">
   <div class="col-lg-12">
       <div class="row">
